@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"> 
+  <title>Jogo Ninja</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">       
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+
+<body>
+	
+<div class="insercao">
+
+  <div class="insere_pergunta" >
+  </div>
+	
+  <div class="insere_respostas" >
+    <div class="color_1"></div>
+	<div class="color_2"></div>
+	<div class="color_3"></div>
+  </div>
+</div>
+
+<div class="content">
+
+  <div class="inicio"><h1 class="game_title"> Ninja Attack </h1> 
+    <p>Use os direcionais para se mover e encoste no ninja<br/> 
+	  com a mesma cor da resposta certa para golpea-lo.<br/>
+	  Se você encostar no ninja <br/>
+	  que contenha cor da resposta errada,<br/>
+	  perderá energia.
+    </p>
+    <p><strong>Clique aqui para iniciar !</strong></p>
+ </div>
+ 
+  <div class="game_over">
+    <h1> Game Over </h1> 
+    <p><strong>Clique aqui para jogar novamente !</strong></p>
+ </div>  
+	
+  <canvas id="canvas" width="640" height="480" 
+	    style="border: solid 1px black; margin: 0px auto; display: block;">	
+  </canvas>
+   
+  
+<div class="content">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous">
+</script>
+<script src="js/myscript.js"></script>
+</body>
+</html>

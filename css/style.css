@@ -1,0 +1,74 @@
+.insercao {
+    width: 500px;
+	height: 100px;
+	margin: 0px auto;
+	display:block;
+	visibility:hidden;
+	outline: 1px solid black;
+	background: #eeeb92;
+	font-size:20px;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-top: 15px;
+	padding-left: 50px;
+  }
+  
+  .game_title {
+    font-family: 'Shojumaru', cursive;
+	color: #b34a11;
+  }
+  
+  
+  .insere_pergunta {
+    font-size:30px;
+  }
+   
+  
+  .insere_respostas div {
+    display: inline;
+	float: left;
+	margin-right:30px;
+  }
+  
+  .content {
+    width:640px;	
+	vartical-align:table-cell;
+	position:relative;
+	margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .inicio, .game_over {
+    background-color: white;
+    display: inline-block;
+    height: 229px;
+    left: 22%;   
+    position: absolute;
+    text-align: center;
+    top: 24%;
+    width: 370px;	
+  }
+  
+  .inicio {
+     padding: 10px;
+  }
+  
+  .game_over {
+    display:none;
+  }
+  
+  .game_over h1 {
+    padding-top: 49px;
+  }
+  
+  .color_1 {
+    color: purple;
+  }
+  
+  .color_2 {
+    color: brown;
+  }
+  
+  .color_3 {
+    color: green;
+  }
